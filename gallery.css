@@ -1,0 +1,43 @@
+@media (min-width: 1050px) {
+  header > * {
+    padding: 50px;
+    text-align: center;
+  }
+  main {
+    justify-content: space-around;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 20px;
+  }
+  img {
+    max-height: 20rem;
+    max-width: 20rem;
+  }
+}
+@media (max-width: 1050px) {
+  header > * {
+    padding: 20px;
+  }
+  main {
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+  }
+  img {
+    max-height: 25rem;
+  }
+}
+@media (max-width: 650px) {
+  header > * {
+    padding: 20px;
+    text-align: center;
+  }
+  main {
+    padding: 20px;
+    gap: 20px;
+  }
+  img {
+    max-height: 15rem;
+  }
+}
