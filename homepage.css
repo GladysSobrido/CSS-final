@@ -60,9 +60,10 @@ footer {
 }
 @media (min-width: 1050px) {
   header > * {
-    padding: 30px;
+    padding: 50px;
     text-align: center;
   }
+
   main {
     justify-content: space-around;
     gap: 20px;
@@ -86,6 +87,7 @@ footer {
     max-height: 15rem;
   }
 }
+
 @media (max-width: 650px) {
   header > * {
     padding: 20px;
